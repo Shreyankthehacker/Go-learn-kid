@@ -42,7 +42,7 @@ func Run(searchTerm string){
 		matcher,exists := matchers[feed.Type]
 		if !exists{
 			fmt.Println(matcher)
-			matcher = matchers["rss"]
+			matcher = matchers["default"]
 		}
 
 
